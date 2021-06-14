@@ -1,0 +1,77 @@
+@media (min-width: 1024px){
+    
+}
+
+@media (min-width: 740px) and (max-width: 1023px){
+   
+}
+
+@media (max-width: 739px){
+    #header{
+        overflow: hidden;
+    }
+    #header .btn-menu{
+        display: block;
+    }
+    #header .btn-search{
+        display: none;
+    }
+
+    .nav{
+        display: block;
+    }
+    .nav>li{
+        display: block;
+    }
+    .nav>li:first-child{
+        display: inline-block;
+    }
+    .nav .subnav{
+        position: initial;
+        background: #333;
+    }
+    .nav .subnav a{
+        color: #fff;
+        padding: 5px 41px;
+    }
+    #content .tour-place,
+    #content .list-member{
+        flex-direction: column;
+        align-items: center;
+    }   
+    #content .member-item{
+        width: 100%;
+        margin-top: 30px;
+    }
+    #content .member-avt {
+        width: 60%;
+    }     
+
+    #content .place-list{
+        width: 100%;
+        margin-bottom: 16px;
+    }
+    #content .contact-info{
+        padding-bottom: 16px;
+    }
+    .contact-mobile,
+    #content .contact-content{
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content:space-between;
+
+        width: 100%;
+        display: block;
+    }
+
+    .contact-mobile .ip-mobile{
+        padding: 0;
+        padding-bottom: 8px;
+    }
+
+    #slider .text-slider{
+        display: none;
+    }
+}
+
+
